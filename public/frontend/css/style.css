@@ -1,0 +1,388 @@
+/* General CSS*/
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+    }
+            /** homepage **/
+    .custom-nav{
+        background-color: #b1040e;
+    }
+    .drop-custom{
+        background-color: #b1040e;
+    }
+    .drop-custom li :hover{
+        background: #000;
+    }
+    .custom-nav ul li a{
+        color: #FFF !important;
+    } 
+    .banner-head{
+        margin-top: 3rem;
+    }
+    .timer-logo{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+    }
+    .logo-nav{
+        max-height: 80px;
+    }
+    .timer-heading{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: #b1040e;
+    }
+    .timer-box{
+        width: 600px;
+        background-color: solid red;
+        border: 2px solid black;
+        margin-top: 2rem;
+        height: 200px;
+        box-shadow:0px 1px 15px 5px rgb(151, 177, 191, 0.6);
+        -webkit-box-shadow:0px 1px 15px 5px rgb(151, 177, 191, 0.6);
+        -moz-box-shadow:0px 1px 15px 5px rgb(151, 177, 191, 0.6);
+    }
+    .wel-info{
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26.71px;
+        font-style: normal;
+        padding: 3px;
+    }
+    .red-txt{
+        color: #b1040e;
+    }
+    .timer-info{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.71px;
+        font-style: normal;
+    /*    border-left: 1px solid black;*/
+    /*    padding: 5px;*/
+    }
+    .t-text{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 19px;
+        color: #b1040e;
+    }
+    .reg-div{
+        padding: 25px;
+        border-top: 2px solid #b1040e;
+        border-bottom: 2px solid #b1040e;
+    }
+    .committee-box{
+        background-color: #FAFAFA;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+/* footer */
+    .footer-body{
+        background-color: #b1040e;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+        padding-top: 1rem;
+    }
+    .copyright-text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .footer-link>div>div>a {
+        color: #fff;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+/** event-registration-page **/
+.event-head h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.method{
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 25.71px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.method h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+
+/* countdown */
+
+#header .countdown {
+    margin-bottom: 80px;
+  }
+  
+  #header .countdown div {
+    text-align: center;
+    border: 2px solid rgba(14, 14, 14, 0.8);
+    border-radius: 8px;
+    margin: 10px 10px;
+    width: 100px;
+    padding: 15px 0;
+  }
+  
+  #header .countdown div h3 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  
+  #header .countdown div h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 575px) {
+    #header .countdown div {
+      width: 70px;
+      padding: 10px 0;
+      margin: 10px 8px;
+    }
+  
+    #header .countdown div h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+  
+    #header .countdown div h4 {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+
+        /*** registration ***/
+.head-reg{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    font-style: normal;
+    color: #b1040e;
+}
+.box-reg{
+    background-color: #FAFAFA;
+    padding: 20px;
+    border: 2px solid #FAFAFA;
+    border-color: #b1040e;
+    box-shadow: 5px solid #FAFAFA;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.event-box{
+    background-color: #FAFAFA;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid #FAFAFA;
+    box-shadow: 5px solid #FAFAFA;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.box-event{
+    padding: 5px;
+    border: 2px solid #b1040e;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+        /** instruction **/
+.app-box{
+    padding: 7px;
+    border: 2px solid #b1040e;
+    background-color: #FAFAFA;
+    box-shadow: 5px solid #FAFAFA;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    /* margin-top: 5px; */
+}
+        /** contact **/
+.contact-box{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+/*    color: #b1040e;*/
+    padding: 10px;
+    border: 2px solid #b1040e;
+    background-color: #FAFAFA;
+    box-shadow: 5px solid #FAFAFA;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+
+        /*** id-card ***/
+.id-card{
+    border: 5px solid #b1040e;
+}
+.id-logo{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.id-event{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    font-style: normal;
+    color: #b1040e;
+    line-height: 15.71px;
+    padding-bottom: 3px;
+}
+.event-logo{
+    height: 183px;
+    width: 183px;
+    border: 5px solid #b1040e;
+    border-radius: 50%;
+}
+.type-guest{
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    font-style: normal;
+    color: #b1040e;
+}
+.id-place{
+    padding-top: 13px;
+    padding-bottom: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: #FFFFFF;
+    line-height: 15.71px;
+    background-color: #b1040e;
+}
+.foot-id-logo{
+    width: 50px;
+    height: 55px;
+    float: right;
+    margin-top: 8px;
+}
+.foot-id-txt{
+    vertical-align: middle !important;
+}
+.foot-p-txt{
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    font-style: normal;
+    color: #b1040e;
+    padding-top: 20px
+}
+
+        /* idcard-2 */
+.type-normal{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 6.71px;
+    font-style: normal;
+    color: #b1040e;
+}
+
+        /* login */
+.login-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: #b1040e;
+}
+        /* profile-status */
+.pay-event{
+    padding: 8px;
+    border: 2px solid #b1040e;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+.prof-head{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    font-style: normal;
+    color: #fff;
+    background-color: #b1040e;
+    border-radius: 5px;
+}
+.prof-info{
+    padding-left: 3rem;
+    margin-top: 2rem;
+    color: #b1040e;
+    min-height: 200px;
+}
+.add_child ul{
+  list-style: none;
+  margin-left: -30px;
+}
+
+/*added 230717*/
+.dropify-wrapper .dropify-message p {
+    font-size: 26px;
+}
+@media only screen and (max-width: 480px) {
+    .banner-head img {
+        height: 150px;
+    }
+    
+    .copyright-text {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .footer-link {
+        text-align: center;
+        margin-left: unset;
+    }
+    .footer-link>div>div>a {
+        color: #fff;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .aamarpay-footer-logo {
+        text-align: center;
+        margin-left: .5rem !important;
+        margin-top: 5px;
+    }
+    .dropify-wrapper .dropify-message p {
+        font-size: 22px;
+    }
+    .inv-image {
+        text-align: center;
+    }
+    .inv-table {
+        font-size: 12px;
+    }
+}
+/*@media screen and (max-width: 768px) {*/
+/*    .copyright-text {*/
+/*        font-size: 14px;*/
+/*        font-weight: 600;*/
+/*        color: yellow;*/
+/*    }*/
+/*}*/
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .nav-link{   }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
